@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{acd2dbdf-933e-4981-8be6-663b88d4b130}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>aes_audio_warning</RootNamespace>
+    <ProjectName>aes_audio_warning</ProjectName>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <LinuxIncludePath>c:\visualmicro\ignore</LinuxIncludePath>
+    <wiringPiIncludePath>c:\visualmicro\pi-ignore</wiringPiIncludePath>
+    <TargetOSAndVersion>Arduino</TargetOSAndVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="aes_audio_warning.ino">
+      <FileType>CppCode</FileType>
+      <DeploymentContent>true</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="AppWiFi.cpp" />
+    <ClCompile Include="Dbg.cpp" />
+    <ClCompile Include="dfplayer.cpp" />
+    <ClCompile Include="DFRobotDFPlayerMini.cpp" />
+    <ClCompile Include="Dxdiag.cpp" />
+    <ClCompile Include="FIFO.cpp" />
+    <ClCompile Include="Fota.cpp" />
+    <ClCompile Include="FTP_Client.cpp" />
+    <ClCompile Include="GPIO.cpp" />
+    <ClCompile Include="HelpString.cpp" />
+    <ClCompile Include="Hex_Strings.cpp" />
+    <ClCompile Include="HLW8012.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="ntp.cpp" />
+    <ClCompile Include="NTPClient.cpp" />
+    <ClCompile Include="Preprocess.cpp" />
+    <ClCompile Include="RTC_DS3231.cpp" />
+    <ClCompile Include="SDCard.cpp" />
+    <ClCompile Include="serial_handle.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="ThreadController.cpp" />
+    <ClCompile Include="Threads.cpp" />
+    <ClCompile Include="Watchdog.cpp" />
+    <ClCompile Include="WiFiExtender.cpp" />
+    <ClCompile Include="WSClient.cpp" />
+    <ClCompile Include="WSHandle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\arduino folders read me.txt">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppWiFi.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Dbg.h" />
+    <ClInclude Include="dfplayer.h" />
+    <ClInclude Include="DFRobotDFPlayerMini.h" />
+    <ClInclude Include="Dxdiag.h" />
+    <ClInclude Include="ESP8266Ping.h" />
+    <ClInclude Include="ESP8266Ping.impl.h" />
+    <ClInclude Include="FIFO.h" />
+    <ClInclude Include="Fota.h" />
+    <ClInclude Include="FTP_Client.h" />
+    <ClInclude Include="GPIO.h" />
+    <ClInclude Include="HelpString.h" />
+    <ClInclude Include="Hex_Strings.h" />
+    <ClInclude Include="HLW8012.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="ntp.h" />
+    <ClInclude Include="NTPClient.h" />
+    <ClInclude Include="Pinmap.h" />
+    <ClInclude Include="Preprocess.h" />
+    <ClInclude Include="RTC_DS3231.h" />
+    <ClInclude Include="SDCard.h" />
+    <ClInclude Include="serial_handle.h" />
+    <ClInclude Include="StaticThreadController.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="ThreadController.h" />
+    <ClInclude Include="Threads.h" />
+    <ClInclude Include="Watchdog.h" />
+    <ClInclude Include="WiFiExtender.h" />
+    <ClInclude Include="WSClient.h" />
+    <ClInclude Include="WSHandle.h" />
+    <ClInclude Include="__vm\.aes_audio_warning.vsarduino.h" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>$(ProjectDir)..\aes_audio_warning;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\tools\sdk\include;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\tools\sdk\lwip2\include;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\variants\generic;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\Ticker\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266HTTPClient\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266WiFi\src;$(ProjectDir)..\..\..\..\Arduino\arduino-1.8.19\libraries\libraries\ArduinoJson\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\EEPROM;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\Wire;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SD\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SDFS\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SPI;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266SdFat\src;$(ProjectDir)..\..\..\..\Arduino\arduino-1.8.19\libraries\WebSockets-2.3.6\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SoftwareSerial\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\Hash\src;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include\c++\10.3.0;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include\c++\10.3.0\xtensa-lx106-elf;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include\c++\10.3.0\backward;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\lib\gcc\xtensa-lx106-elf\10.3.0\include;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\lib\gcc\xtensa-lx106-elf\10.3.0\include-fixed;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include</IncludePath>
+    <RemoteCCompileToolExe>C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\bin\xtensa-lx106-elf-g++</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\bin\xtensa-lx106-elf-g++</RemoteCppCompileToolExe>
+    <ValidateArchitecture>false</ValidateArchitecture>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\aes_audio_warning;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\tools\sdk\include;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\tools\sdk\lwip2\include;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\variants\generic;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\Ticker\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266HTTPClient\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266WiFi\src;$(ProjectDir)..\..\..\..\Arduino\arduino-1.8.19\libraries\libraries\ArduinoJson\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\EEPROM;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\Wire;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SD\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SDFS\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SPI;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266SdFat\src;$(ProjectDir)..\..\..\..\Arduino\arduino-1.8.19\libraries\WebSockets-2.3.6\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\SoftwareSerial\src;C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\Hash\src;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include\c++\10.3.0;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include\c++\10.3.0\xtensa-lx106-elf;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include\c++\10.3.0\backward;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\lib\gcc\xtensa-lx106-elf\10.3.0\include;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\lib\gcc\xtensa-lx106-elf\10.3.0\include-fixed;c:\users\asus\appdata\local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\xtensa-lx106-elf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <GccToolChain>C:\Users\ASUS\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.4-gcc10.3-1757bed\bin\xtensa-lx106-elf-g++</GccToolChain>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+      <CLanguageStandard>gnu11</CLanguageStandard>
+      <CAdditionalWarning />
+      <CppAdditionalWarning />
+      <ForcedIncludeFiles>c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\n2m4cono.g5l\Micro Platforms\default\vm-intelli-pre.h;C:\Users\ASUS\AppData\Local\Temp\VMBuilds\aes_audio_warning\esp8266_generic\Debug\.vmintelli\14ca8c8d9b7b8c97153f0cf51cab7df3\vm-intelli-gcc-defines.h;c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\n2m4cono.g5l\Micro Platforms\default\vm-intelli-post.h;$(ProjectDir)__vm\.aes_audio_warning.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <UndefineAllPreprocessorDefinitions>true</UndefineAllPreprocessorDefinitions>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>_VMICRO_INTELLISENSE;__ESP8266_esp8266__;__ESP8266_ESP8266__;__ets__;ICACHE_FLASH;_GNU_SOURCE;MMU_IRAM_SIZE=0x8000;MMU_ICACHE_SIZE=0x8000;NONOSDK22x_190703=1;F_CPU=160000000L;LWIP_OPEN_SRC;TCP_MSS=536;LWIP_FEATURES=1;LWIP_IPV6=0;ARDUINO=108019;ARDUINO_ESP8266_GENERIC;ARDUINO_ARCH_ESP8266;ARDUINO_BOARD=ESP8266_GENERIC;LED_BUILTIN=2;FLASHMODE_DOUT;ESP8266;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

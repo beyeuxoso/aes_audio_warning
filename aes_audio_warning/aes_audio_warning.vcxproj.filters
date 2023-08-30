@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Misc Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>xml;json;txt;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Appliacation">
+      <UniqueIdentifier>{add6bae1-a2f5-488f-8b03-4329b8b55cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Appliacation\Threads">
+      <UniqueIdentifier>{a3516e48-d40a-41fe-916f-c005ae0019a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Appliacation\WiFi">
+      <UniqueIdentifier>{614a2a70-598a-41b3-b677-cb32b0480ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Appliacation\WSHandle">
+      <UniqueIdentifier>{c277d12d-7d16-42c6-8afd-6878f3dce1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{497dfc65-3cd1-409d-aea1-e7b4192669e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Fota">
+      <UniqueIdentifier>{649e0773-ea61-4ebe-821b-cf9bed84939a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Memory">
+      <UniqueIdentifier>{8d2a51df-22c1-4206-907b-2323f07cb413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Preprocess">
+      <UniqueIdentifier>{d3160091-cefb-4af5-b6a6-7c00a4482cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\SerialHandle">
+      <UniqueIdentifier>{cf51a231-889a-4370-bdc5-f9ddb6b5b03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\WiFiExtender">
+      <UniqueIdentifier>{12a59bde-0352-4c0a-bdd0-9c8d213a8df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\WSClient">
+      <UniqueIdentifier>{39b86cd0-48e0-4b69-a20f-8a6ffaad07b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{277ab0ee-eda4-4fcf-8e76-8b1f841917db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration\HLW8012">
+      <UniqueIdentifier>{fd08533c-d37d-4630-8a52-7226d196e798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver">
+      <UniqueIdentifier>{a45f1185-2c3a-42fe-a08b-dbb0d0b2f139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\Dbg">
+      <UniqueIdentifier>{b985d40f-3335-4eb8-b872-d7e47a72e9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\Dxdiag">
+      <UniqueIdentifier>{8915acda-7823-4ab4-85f4-c1ab142b139a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\GPIO">
+      <UniqueIdentifier>{badfc096-ba17-40b3-9264-9b584ac5c2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\HelpString">
+      <UniqueIdentifier>{371cb77e-1ff1-4114-94df-c66d74168a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\NTP">
+      <UniqueIdentifier>{42f08f08-bec3-41a6-bec9-26dd925a1fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\RTC">
+      <UniqueIdentifier>{91408e18-eafb-4dfc-aeea-f22e98fd3c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\SDCard">
+      <UniqueIdentifier>{63fa34c4-ad3d-44e9-9a5b-f9159d016e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLeverDriver\Watchdog">
+      <UniqueIdentifier>{60cf15bf-37ee-4226-8a2e-3aa4d812f266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{701753fb-3061-40f0-a247-d1993e56c53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middlewares">
+      <UniqueIdentifier>{34dead5b-ff5b-42e5-81c6-8d6e8ce84645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ArduinoThread-2.1.1">
+      <UniqueIdentifier>{6c64fef6-3f6c-461f-935d-d06ddad4058c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ESP8266Ping">
+      <UniqueIdentifier>{0da9e179-73bb-457b-a2d0-371afe8c3857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\FIFO">
+      <UniqueIdentifier>{f91bf018-2d74-4289-a476-0f4941c5c76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\FTP_Client">
+      <UniqueIdentifier>{37460c41-37c3-427e-b93b-b37e75ab8c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Hex_Strings">
+      <UniqueIdentifier>{3bafeebc-aacd-4502-9c19-a0378827a25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\LinkedList">
+      <UniqueIdentifier>{254089ca-c7cf-4ed3-a16d-fa6cf5142827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\NTPClient-3.2.1">
+      <UniqueIdentifier>{f4a9e297-39a8-42b3-b47b-130d67b4a87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DFPlayer">
+      <UniqueIdentifier>{daa117da-acfa-4c08-8b5d-3184efde6615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\DFPlayer">
+      <UniqueIdentifier>{22f3f533-cb00-4964-9cdd-a36f417c3bc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\arduino folders read me.txt">
+      <Filter>Misc Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aes_audio_warning.ino" />
+    <ClCompile Include="Threads.cpp">
+      <Filter>Appliacation\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWiFi.cpp">
+      <Filter>Appliacation\WiFi</Filter>
+    </ClCompile>
+    <ClCompile Include="WSHandle.cpp">
+      <Filter>Appliacation\WSHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="Fota.cpp">
+      <Filter>Components\Fota</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Components\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="WSClient.cpp">
+      <Filter>Components\WSClient</Filter>
+    </ClCompile>
+    <ClCompile Include="WiFiExtender.cpp">
+      <Filter>Components\WiFiExtender</Filter>
+    </ClCompile>
+    <ClCompile Include="serial_handle.cpp">
+      <Filter>Components\SerialHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="Preprocess.cpp">
+      <Filter>Components\Preprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="HLW8012.cpp">
+      <Filter>Configuration\HLW8012</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbg.cpp">
+      <Filter>HighLeverDriver\Dbg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dxdiag.cpp">
+      <Filter>HighLeverDriver\Dxdiag</Filter>
+    </ClCompile>
+    <ClCompile Include="GPIO.cpp">
+      <Filter>HighLeverDriver\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpString.cpp">
+      <Filter>HighLeverDriver\HelpString</Filter>
+    </ClCompile>
+    <ClCompile Include="Watchdog.cpp">
+      <Filter>HighLeverDriver\Watchdog</Filter>
+    </ClCompile>
+    <ClCompile Include="SDCard.cpp">
+      <Filter>HighLeverDriver\SDCard</Filter>
+    </ClCompile>
+    <ClCompile Include="RTC_DS3231.cpp">
+      <Filter>HighLeverDriver\RTC</Filter>
+    </ClCompile>
+    <ClCompile Include="ntp.cpp">
+      <Filter>HighLeverDriver\NTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadController.cpp">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClCompile>
+    <ClCompile Include="FIFO.cpp">
+      <Filter>Libraries\FIFO</Filter>
+    </ClCompile>
+    <ClCompile Include="FTP_Client.cpp">
+      <Filter>Libraries\FTP_Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Hex_Strings.cpp">
+      <Filter>Libraries\Hex_Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Libraries\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="NTPClient.cpp">
+      <Filter>Libraries\NTPClient-3.2.1</Filter>
+    </ClCompile>
+    <ClCompile Include="DFRobotDFPlayerMini.cpp">
+      <Filter>Libraries\DFPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="dfplayer.cpp">
+      <Filter>Components\DFPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.aes_audio_warning.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Appliacation\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWiFi.h">
+      <Filter>Appliacation\WiFi</Filter>
+    </ClInclude>
+    <ClInclude Include="WSHandle.h">
+      <Filter>Appliacation\WSHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="Fota.h">
+      <Filter>Components\Fota</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Components\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="WSClient.h">
+      <Filter>Components\WSClient</Filter>
+    </ClInclude>
+    <ClInclude Include="WiFiExtender.h">
+      <Filter>Components\WiFiExtender</Filter>
+    </ClInclude>
+    <ClInclude Include="serial_handle.h">
+      <Filter>Components\SerialHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocess.h">
+      <Filter>Components\Preprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="HLW8012.h">
+      <Filter>Configuration\HLW8012</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinmap.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbg.h">
+      <Filter>HighLeverDriver\Dbg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxdiag.h">
+      <Filter>HighLeverDriver\Dxdiag</Filter>
+    </ClInclude>
+    <ClInclude Include="GPIO.h">
+      <Filter>HighLeverDriver\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpString.h">
+      <Filter>HighLeverDriver\HelpString</Filter>
+    </ClInclude>
+    <ClInclude Include="Watchdog.h">
+      <Filter>HighLeverDriver\Watchdog</Filter>
+    </ClInclude>
+    <ClInclude Include="SDCard.h">
+      <Filter>HighLeverDriver\SDCard</Filter>
+    </ClInclude>
+    <ClInclude Include="RTC_DS3231.h">
+      <Filter>HighLeverDriver\RTC</Filter>
+    </ClInclude>
+    <ClInclude Include="ntp.h">
+      <Filter>HighLeverDriver\NTP</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticThreadController.h">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadController.h">
+      <Filter>Libraries\ArduinoThread-2.1.1</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP8266Ping.h">
+      <Filter>Libraries\ESP8266Ping</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP8266Ping.impl.h">
+      <Filter>Libraries\ESP8266Ping</Filter>
+    </ClInclude>
+    <ClInclude Include="FIFO.h">
+      <Filter>Libraries\FIFO</Filter>
+    </ClInclude>
+    <ClInclude Include="FTP_Client.h">
+      <Filter>Libraries\FTP_Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Hex_Strings.h">
+      <Filter>Libraries\Hex_Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Libraries\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="NTPClient.h">
+      <Filter>Libraries\NTPClient-3.2.1</Filter>
+    </ClInclude>
+    <ClInclude Include="DFRobotDFPlayerMini.h">
+      <Filter>Libraries\DFPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="dfplayer.h">
+      <Filter>Components\DFPlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
