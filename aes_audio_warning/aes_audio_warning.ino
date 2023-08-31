@@ -56,8 +56,8 @@ void setup() {
 	// Debug via Serial
 	Dbg_Init();
 	dfplayer_init();
-	// Init I2C
-	//Wire.begin();
+	//Init I2C
+	Wire.begin();
 #if USING_SDCARD
 	// Connect to SD card
 	SDCard_Init();

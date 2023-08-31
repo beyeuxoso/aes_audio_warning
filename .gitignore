@@ -51,6 +51,7 @@ Thumbs.db
 # minhdc
 aes_audio_warning/__vm
 aes_audio_warning/.vs
+aes_audio_warning/src
 aes_audio_warning/aes_audio_warning.sln
 aes_audio_warning/aes_audio_warning.ino.generic.bin
 

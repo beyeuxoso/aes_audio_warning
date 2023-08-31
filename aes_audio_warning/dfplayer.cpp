@@ -63,6 +63,8 @@ String loop_track(String data) {
 	data.trim();
 	int track = data.toInt();
 	myMP3.loop(track);
+	myMP3.enableLoop();
+	Dbg_Println("loop_done");
 	return "done";
 }
 
